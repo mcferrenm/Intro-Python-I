@@ -17,6 +17,8 @@ print(sys.argv[2])
 
 # Print out the OS platform you're using:
 print(os.uname())
+print(sys.platform)
+print(sys.getwindowsversion())
 
 # Print out the version of Python you're using:
 print(sys.version_info)
